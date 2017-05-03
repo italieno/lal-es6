@@ -1,0 +1,27 @@
+{
+  "name": "lal-es6",
+  "version": "1.0.0",
+  "description": "lunch and learn about es6",
+  "main": "index.js",
+  "scripts": {
+    "start":"webpack-dev-server --watch --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/italieno/lal-es6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/italieno/lal-es6/issues"
+  },
+  "homepage": "https://github.com/italieno/lal-es6#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
